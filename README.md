@@ -9,10 +9,11 @@ Licensed as I-don't-care-about.
 
 Usage
 =====
-
-&lt;script type="text/javascript" src="jquery.ui.selectcompletion.js>&lt;/script>
-&lt;script type="text/javascript">
-  $(document).ready(function(){
-    $("select").selectcompletion();
-  });
-&lt;/script>
+```
+<script type="text/javascript" src="jquery.ui.selectcompletion.js></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("select").selectcompletion();
+	});
+</script>
+```
