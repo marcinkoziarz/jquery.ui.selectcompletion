@@ -7,19 +7,6 @@ $.fn.selectcompletion = function(options) {
 
 	// setup our defaults
 	var defaults = {
-	minChars: 0
-	, width: 310
-	, matchContains: true
-	, autoFill: false
-	, formatItem: function(row, i, max) {
-	return row.name;
-	}
-	, formatMatch: function(row, i, max) {
-	return row.name;
-	}
-	, formatResult: function(row) {
-	return row.name;
-	}
 	};
 
 	options = $.extend(defaults, options);
