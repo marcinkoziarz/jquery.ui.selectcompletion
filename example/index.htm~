@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>jquery.ui.selectcompletion</title>
+	
+	<script type="text/javascript" src="jquery-ui/js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.1.custom.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui/css/start/jquery-ui-1.10.1.custom.min.css">
+	<script type="text/javascript" src="jquery.ui.selectcompletion.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("select").selectcompletion();
+			$("input[name=test]").attr("type","text");
+		});
+	</script>
+</head>
+<body>
+	<h1>jquery.ui.selectcompletion example</h1>
+
+	<h2>Typical live example</h2>
+
+	Select an animal:
+	<select name="animal">
+		<option value="fox">Fox</option>
+		<option value="dog">Dog</option>
+		<option value="cat">Cat</option>
+		<option value="snake">Snake</option>
+		<option value="bat">Bat</option>
+	</select>
+	<hr>
+	<h2>Example with shown hidden field</h2>
+	In this example a hidden input containing current value of select is shown, normally it will remain hidden.
+	<select name="test">
+		<option value="fox">Fox</option>
+		<option value="dog">Dog</option>
+		<option value="cat">Cat</option>
+		<option value="snake">Snake</option>
+		<option value="bat">Bat</option>
+	</select>
+</body>
+</html>
